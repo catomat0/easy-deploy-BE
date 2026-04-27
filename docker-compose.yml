@@ -21,6 +21,10 @@ services:
       - "8080:8080"
     env_file:
       - .env
+    environment:
+      - EASYDEPLOY_JOBS_DIR=/app/terraform-jobs
+    volumes:
+      - terraform_jobs:/app/terraform-jobs
     depends_on:
       db:
         condition: service_healthy
@@ -28,3 +32,4 @@ services:
 
 volumes:
   mysql_data:
+  terraform_jobs:

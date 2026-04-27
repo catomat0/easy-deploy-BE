@@ -26,8 +26,14 @@ import java.util.function.Consumer;
 @Service
 public class TerraformService {
 
-    private static final Path JOBS_BASE_DIR =
-            Paths.get(System.getProperty("user.home"), ".easydeploy", "jobs");
+    private static final Path JOBS_BASE_DIR;
+
+    static {
+        String customDir = System.getenv("EASYDEPLOY_JOBS_DIR");
+        JOBS_BASE_DIR = (customDir != null && !customDir.isBlank())
+                ? Paths.get(customDir)
+                : Paths.get(System.getProperty("user.home"), ".easydeploy", "jobs");
+    }
 
     private static final List<String> TEMPLATES = List.of("main.tf", "variables.tf", "outputs.tf");
 
