@@ -215,6 +215,8 @@ public class DeployService {
                 tfvars.put("vpc_id", req.getVpcId());
             if (req.getSubnetId() != null && !req.getSubnetId().isBlank())
                 tfvars.put("subnet_id", req.getSubnetId());
+            if (req.getServerName() != null && !req.getServerName().isBlank())
+                tfvars.put("server_name", req.getServerName().trim());
 
             Path jobDir = terraformService.setupWorkspace(String.valueOf(jobId), tfvars);
 
@@ -247,6 +249,7 @@ public class DeployService {
             sanitized.put("storage_size", req.getStorageSize());
             sanitized.put("vpc_id", req.getVpcId() != null ? req.getVpcId() : "");
             sanitized.put("subnet_id", req.getSubnetId() != null ? req.getSubnetId() : "");
+            sanitized.put("server_name", req.getServerName() != null ? req.getServerName().trim() : "");
             terraformService.sanitizeTfvars(jobDir, sanitized);
 
             terraformDone = true;

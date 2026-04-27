@@ -121,7 +121,7 @@ resource "aws_instance" "deploy" {
   }
 
   tags = {
-    Name      = "easydeploy-instance-${var.job_id}"
+    Name      = var.server_name != "" ? var.server_name : "easydeploy-instance-${var.job_id}"
     ManagedBy = "easydeploy"
   }
 }

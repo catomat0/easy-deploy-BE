@@ -48,3 +48,9 @@ variable "storage_size" {
   type        = number
   default     = 20
 }
+
+variable "server_name" {
+  description = "AWS 콘솔에 표시될 EC2 인스턴스 이름 (비워두면 자동 생성)"
+  type        = string
+  default     = ""
+}

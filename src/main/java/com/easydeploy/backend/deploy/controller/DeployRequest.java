@@ -29,6 +29,7 @@ public class DeployRequest {
 
     private String vpcId;
     private String subnetId;
+    private String serverName;
 
     private int storageSize = 20;
 }
