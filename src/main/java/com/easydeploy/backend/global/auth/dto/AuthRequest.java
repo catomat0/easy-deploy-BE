@@ -1,4 +1,4 @@
-package com.easydeploy.backend.auth.controller;
+package com.easydeploy.backend.global.auth.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

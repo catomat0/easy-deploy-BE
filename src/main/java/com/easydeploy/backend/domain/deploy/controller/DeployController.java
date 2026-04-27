@@ -1,6 +1,8 @@
-package com.easydeploy.backend.deploy.controller;
+package com.easydeploy.backend.domain.deploy.controller;
 
-import com.easydeploy.backend.deploy.service.DeployService;
+import com.easydeploy.backend.domain.deploy.dto.DeployRequest;
+import com.easydeploy.backend.domain.deploy.dto.DeployResponse;
+import com.easydeploy.backend.domain.deploy.service.DeployService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;

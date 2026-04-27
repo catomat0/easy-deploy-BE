@@ -1,4 +1,4 @@
-package com.easydeploy.backend.deploy.service;
+package com.easydeploy.backend.domain.deploy.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

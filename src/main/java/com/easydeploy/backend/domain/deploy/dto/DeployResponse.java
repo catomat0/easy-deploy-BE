@@ -1,7 +1,7 @@
-package com.easydeploy.backend.deploy.controller;
+package com.easydeploy.backend.domain.deploy.dto;
 
-import com.easydeploy.backend.deploy.domain.DeployJob;
-import com.easydeploy.backend.deploy.domain.DeployStatus;
+import com.easydeploy.backend.domain.deploy.domain.DeployJob;
+import com.easydeploy.backend.domain.deploy.domain.DeployStatus;
 import lombok.Builder;
 import lombok.Getter;
 

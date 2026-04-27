@@ -1,4 +1,4 @@
-package com.easydeploy.backend.auth.domain;
+package com.easydeploy.backend.global.auth.domain;
 
 import jakarta.persistence.*;
 import lombok.Builder;

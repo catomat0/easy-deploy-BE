@@ -1,4 +1,4 @@
-package com.easydeploy.backend.deploy.domain;
+package com.easydeploy.backend.domain.deploy.domain;
 
 import jakarta.persistence.*;
 import lombok.Builder;

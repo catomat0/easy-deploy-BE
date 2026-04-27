@@ -1,4 +1,4 @@
-package com.easydeploy.backend.server.domain;
+package com.easydeploy.backend.domain.server.domain;
 
 public enum ServerStatus {
     RUNNING,

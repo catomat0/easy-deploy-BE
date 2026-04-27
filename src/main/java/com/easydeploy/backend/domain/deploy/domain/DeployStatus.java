@@ -1,4 +1,4 @@
-package com.easydeploy.backend.deploy.domain;
+package com.easydeploy.backend.domain.deploy.domain;
 
 public enum DeployStatus {
     PENDING,

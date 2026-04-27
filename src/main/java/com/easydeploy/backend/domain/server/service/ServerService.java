@@ -1,12 +1,12 @@
-package com.easydeploy.backend.server.service;
+package com.easydeploy.backend.domain.server.service;
 
-import com.easydeploy.backend.deploy.service.TerraformService;
-import com.easydeploy.backend.server.controller.ServerResponse;
-import com.easydeploy.backend.server.domain.AwsCredential;
-import com.easydeploy.backend.server.domain.Server;
-import com.easydeploy.backend.server.domain.ServerStatus;
-import com.easydeploy.backend.server.repository.AwsCredentialRepository;
-import com.easydeploy.backend.server.repository.ServerRepository;
+import com.easydeploy.backend.domain.deploy.service.TerraformService;
+import com.easydeploy.backend.domain.server.dto.ServerResponse;
+import com.easydeploy.backend.domain.server.domain.AwsCredential;
+import com.easydeploy.backend.domain.server.domain.Server;
+import com.easydeploy.backend.domain.server.domain.ServerStatus;
+import com.easydeploy.backend.domain.server.repository.AwsCredentialRepository;
+import com.easydeploy.backend.domain.server.repository.ServerRepository;
 import com.easydeploy.backend.global.security.EncryptionService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

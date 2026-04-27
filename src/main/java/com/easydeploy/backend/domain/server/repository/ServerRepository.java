@@ -1,7 +1,7 @@
-package com.easydeploy.backend.server.repository;
+package com.easydeploy.backend.domain.server.repository;
 
-import com.easydeploy.backend.server.domain.Server;
-import com.easydeploy.backend.server.domain.ServerStatus;
+import com.easydeploy.backend.domain.server.domain.Server;
+import com.easydeploy.backend.domain.server.domain.ServerStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

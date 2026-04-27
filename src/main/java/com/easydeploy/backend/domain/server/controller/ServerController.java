@@ -1,6 +1,7 @@
-package com.easydeploy.backend.server.controller;
+package com.easydeploy.backend.domain.server.controller;
 
-import com.easydeploy.backend.server.service.ServerService;
+import com.easydeploy.backend.domain.server.dto.ServerResponse;
+import com.easydeploy.backend.domain.server.service.ServerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

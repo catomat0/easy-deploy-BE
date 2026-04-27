@@ -1,7 +1,7 @@
-package com.easydeploy.backend.deploy.repository;
+package com.easydeploy.backend.domain.deploy.repository;
 
-import com.easydeploy.backend.deploy.domain.DeployJob;
-import com.easydeploy.backend.deploy.domain.DeployStatus;
+import com.easydeploy.backend.domain.deploy.domain.DeployJob;
+import com.easydeploy.backend.domain.deploy.domain.DeployStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.easydeploy.backend.server.controller;
+package com.easydeploy.backend.domain.server.dto;
 
 import lombok.Getter;
 

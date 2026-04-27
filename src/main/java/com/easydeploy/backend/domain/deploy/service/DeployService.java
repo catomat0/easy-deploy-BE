@@ -1,11 +1,11 @@
-package com.easydeploy.backend.deploy.service;
+package com.easydeploy.backend.domain.deploy.service;
 
-import com.easydeploy.backend.deploy.controller.DeployRequest;
-import com.easydeploy.backend.deploy.controller.DeployResponse;
-import com.easydeploy.backend.deploy.domain.DeployJob;
-import com.easydeploy.backend.deploy.domain.DeployStatus;
-import com.easydeploy.backend.deploy.repository.DeployJobRepository;
-import com.easydeploy.backend.server.service.ServerService;
+import com.easydeploy.backend.domain.deploy.dto.DeployRequest;
+import com.easydeploy.backend.domain.deploy.dto.DeployResponse;
+import com.easydeploy.backend.domain.deploy.domain.DeployJob;
+import com.easydeploy.backend.domain.deploy.domain.DeployStatus;
+import com.easydeploy.backend.domain.deploy.repository.DeployJobRepository;
+import com.easydeploy.backend.domain.server.service.ServerService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

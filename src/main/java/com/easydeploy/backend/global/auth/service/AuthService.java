@@ -1,7 +1,7 @@
-package com.easydeploy.backend.auth.service;
+package com.easydeploy.backend.global.auth.service;
 
-import com.easydeploy.backend.auth.domain.User;
-import com.easydeploy.backend.auth.repository.UserRepository;
+import com.easydeploy.backend.global.auth.domain.User;
+import com.easydeploy.backend.global.auth.repository.UserRepository;
 import com.easydeploy.backend.global.security.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;

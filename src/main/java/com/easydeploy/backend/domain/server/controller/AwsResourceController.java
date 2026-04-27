@@ -1,5 +1,6 @@
-package com.easydeploy.backend.server.controller;
+package com.easydeploy.backend.domain.server.controller;
 
+import com.easydeploy.backend.domain.server.dto.AwsCredentialsRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

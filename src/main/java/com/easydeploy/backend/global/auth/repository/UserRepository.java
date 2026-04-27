@@ -1,6 +1,6 @@
-package com.easydeploy.backend.auth.repository;
+package com.easydeploy.backend.global.auth.repository;
 
-import com.easydeploy.backend.auth.domain.User;
+import com.easydeploy.backend.global.auth.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.easydeploy.backend.deploy.controller;
+package com.easydeploy.backend.domain.deploy.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;

@@ -1,7 +1,7 @@
-package com.easydeploy.backend.server.controller;
+package com.easydeploy.backend.domain.server.dto;
 
-import com.easydeploy.backend.server.domain.Server;
-import com.easydeploy.backend.server.domain.ServerStatus;
+import com.easydeploy.backend.domain.server.domain.Server;
+import com.easydeploy.backend.domain.server.domain.ServerStatus;
 import lombok.Builder;
 import lombok.Getter;
 

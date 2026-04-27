@@ -1,6 +1,7 @@
-package com.easydeploy.backend.auth.controller;
+package com.easydeploy.backend.global.auth.controller;
 
-import com.easydeploy.backend.auth.service.AuthService;
+import com.easydeploy.backend.global.auth.dto.AuthRequest;
+import com.easydeploy.backend.global.auth.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
