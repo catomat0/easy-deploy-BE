@@ -1,14 +1,14 @@
 package com.easydeploy.backend.deploy.service;
 
-import com.easydeploy.backend.deploy.controller.DeployRequest;
-import com.easydeploy.backend.deploy.controller.DeployResponse;
-import com.easydeploy.backend.deploy.domain.DeployJob;
-import com.easydeploy.backend.deploy.domain.DeployStatus;
-import com.easydeploy.backend.deploy.repository.DeployJobRepository;
-import com.easydeploy.backend.deploy.service.DeployService;
-import com.easydeploy.backend.deploy.service.GithubActionsService;
-import com.easydeploy.backend.deploy.service.TerraformService;
-import com.easydeploy.backend.server.service.ServerService;
+import com.easydeploy.backend.domain.deploy.dto.DeployRequest;
+import com.easydeploy.backend.domain.deploy.dto.DeployResponse;
+import com.easydeploy.backend.domain.deploy.domain.DeployJob;
+import com.easydeploy.backend.domain.deploy.domain.DeployStatus;
+import com.easydeploy.backend.domain.deploy.repository.DeployJobRepository;
+import com.easydeploy.backend.domain.deploy.service.DeployService;
+import com.easydeploy.backend.domain.deploy.service.GithubActionsService;
+import com.easydeploy.backend.domain.deploy.service.TerraformService;
+import com.easydeploy.backend.domain.server.service.ServerService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
