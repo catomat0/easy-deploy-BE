@@ -21,3 +21,6 @@ jwt:
 
 encryption:
   key: ${ENCRYPTION_KEY}
+
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000,http://localhost:5173,http://localhost:3001,https://easy-deploy-fe.vercel.app}
