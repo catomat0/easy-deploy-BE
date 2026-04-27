@@ -1,5 +1,7 @@
 package com.easydeploy.backend.deploy.domain;
 
+import com.easydeploy.backend.deploy.domain.DeployJob;
+import com.easydeploy.backend.deploy.domain.DeployStatus;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;

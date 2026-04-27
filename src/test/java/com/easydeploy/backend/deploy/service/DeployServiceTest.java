@@ -5,6 +5,9 @@ import com.easydeploy.backend.deploy.controller.DeployResponse;
 import com.easydeploy.backend.deploy.domain.DeployJob;
 import com.easydeploy.backend.deploy.domain.DeployStatus;
 import com.easydeploy.backend.deploy.repository.DeployJobRepository;
+import com.easydeploy.backend.deploy.service.DeployService;
+import com.easydeploy.backend.deploy.service.GithubActionsService;
+import com.easydeploy.backend.deploy.service.TerraformService;
 import com.easydeploy.backend.server.service.ServerService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,7 +17,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.core.task.SyncTaskExecutor;
 import org.springframework.test.util.ReflectionTestUtils;
 
-import java.util.List;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.*;
@@ -25,8 +27,10 @@ import static org.mockito.Mockito.*;
 class DeployServiceTest {
 
     @Mock DeployJobRepository deployJobRepository;
-    @Mock TerraformService terraformService;
-    @Mock GithubActionsService githubActionsService;
+    @Mock
+    TerraformService terraformService;
+    @Mock
+    GithubActionsService githubActionsService;
     @Mock ServerService serverService;
 
     DeployService deployService;
