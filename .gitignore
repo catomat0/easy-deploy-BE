@@ -1,0 +1,16 @@
+# Environment variables
+.env
+
+# Build output
+build/
+.gradle/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS
+.DS_Store
